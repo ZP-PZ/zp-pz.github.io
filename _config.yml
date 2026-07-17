@@ -1,3 +1,19 @@
 title: Peng Zhao
-description: Machine learning, generative modeling, and scientific AI
-theme: jekyll-theme-minimal
+description: Research, biography, and selected links.
+url: "https://YOUR-USERNAME.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+nav:
+  - name: Bio
+    url: /
+  - name: Research
+    url: /research/
+  - name: Links
+    url: /links/
+
+exclude:
+  - README.md
+  - LICENSE

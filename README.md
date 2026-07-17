@@ -1,45 +1,22 @@
-# Peng Zhao
+# UCSB-inspired brutalist Jekyll site
 
-**Profession**  
-Student
+A tiny GitHub Pages site written primarily in Markdown.
 
----
+## Use
 
-## About Me
+1. Copy these files into the root of `YOUR-USERNAME.github.io`.
+2. Replace the placeholder username, email, and profile links.
+3. Add PDFs under `assets/pdfs/`.
+4. In GitHub: Settings → Pages → Deploy from a branch → `main` / root.
 
-I am Peng Zhao.
+## Edit content
 
----
+- `index.md`: biography/home page
+- `research.md`: research page
+- `links.md`: links page
+- `_config.yml`: site title and navigation
+- `assets/css/style.css`: visual theme
 
-## Projects
+## Design note
 
-### Project 1
-
-- **Description**: [Briefly describe what this project is about. What problem does it solve? What technologies did you use?]
-- **Link**: [Link to the project (e.g., GitHub repo, live demo)]
-
-### Project 2
-
-- **Description**: [Briefly describe what this project is about. What problem does it solve? What technologies did you use?]
-- **Link**: [Link to the project (e.g., GitHub repo, live demo)]
-
-*[Add more projects as needed. Include a mix of personal, professional, or open-source work to showcase your range.]*
-
----
-
-## Skills
-
-- Skill 1 (e.g., HTML/CSS)
-- Skill 2 (e.g., JavaScript)
-- Skill 3 (e.g., React)  
-  *[Add more skills as needed. Focus on your strongest or most relevant skills for the type of work you're seeking.]*
-
----
-
-## Contact
-
-- **Email**: [your.email@example.com]
-- **LinkedIn**: [Link to your LinkedIn profile]
-- **GitHub**: [Link to your GitHub profile]  
-  *[Add more contact methods as needed, such as Twitter, a personal blog, or a resume download link.]*
-
+The theme uses UCSB's published digital navy, gold, gray, and text colors, with Nunito Sans as the web typeface. It does not include or reproduce the UCSB wordmark, seal, or other protected marks. It is a personal site and should not imply that it is an official UCSB website.
