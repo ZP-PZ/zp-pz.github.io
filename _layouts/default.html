@@ -4,20 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
-  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,800&display=swap" rel="stylesheet">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <div class="gold-rule" aria-hidden="true"></div>
-
   <header class="site-header">
-    <div class="header-inner">
+    <div class="nav-container">
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
 
       <nav class="site-nav" aria-label="Primary navigation">
@@ -29,25 +23,20 @@
     </div>
   </header>
 
-  <main id="main" class="page-shell">
-    <aside class="page-index" aria-label="Page information">
-      <div class="index-label">Page</div>
-      <div class="index-value">{{ page.title | default: 'Bio' }}</div>
-
-      {% if page.updated %}
-        <div class="index-label">Updated</div>
-        <div class="index-value">{{ page.updated }}</div>
-      {% endif %}
-    </aside>
+  <main id="main" class="main-container{% if page.profile_image %} profile-layout{% endif %}">
+    {% if page.profile_image %}
+      <aside class="profile-column">
+        <img
+          class="profile-image"
+          src="{{ page.profile_image | relative_url }}"
+          alt="{{ page.profile_alt | default: site.title | escape }}"
+        >
+      </aside>
+    {% endif %}
 
     <article class="prose">
       {{ content }}
     </article>
   </main>
-
-  <footer class="site-footer">
-    <div>{{ site.title }}</div>
-    <div>Built from plain Markdown.</div>
-  </footer>
 </body>
 </html>

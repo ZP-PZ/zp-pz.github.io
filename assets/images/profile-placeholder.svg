@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Profile image placeholder</title>
+  <desc id="desc">Replace this file with your portrait.</desc>
+  <rect width="600" height="900" fill="#e9ecef"/>
+  <rect x="18" y="18" width="564" height="864" fill="none" stroke="#003660" stroke-width="4"/>
+  <circle cx="300" cy="320" r="105" fill="#c5cbd0"/>
+  <path d="M135 755c16-150 82-238 165-238s149 88 165 238" fill="#c5cbd0"/>
+  <text x="300" y="825" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#003660">REPLACE WITH PROFILE PHOTO</text>
+</svg>

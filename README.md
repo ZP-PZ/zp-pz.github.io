@@ -1,22 +1,22 @@
-# UCSB-inspired brutalist Jekyll site
+# Minimal UCSB-inspired academic Jekyll site
 
-A tiny GitHub Pages site written primarily in Markdown.
+This revision intentionally resembles a plain early-2010s faculty homepage rather than a contemporary portfolio template.
 
-## Use
+## What to edit
 
-1. Copy these files into the root of `YOUR-USERNAME.github.io`.
-2. Replace the placeholder username, email, and profile links.
-3. Add PDFs under `assets/pdfs/`.
-4. In GitHub: Settings → Pages → Deploy from a branch → `main` / root.
+- `_config.yml`: site title, URL, and navigation
+- `index.md`: biography and contact information
+- `research.md`: research descriptions
+- `links.md`: documents and external profiles
+- `assets/images/profile-placeholder.svg`: replace with your portrait, then update `profile_image` in `index.md`
+- `assets/pdfs/`: add `cv.pdf` and other documents
 
-## Edit content
+All ordinary content remains Markdown. The layout only supplies the navigation bar and optional two-column profile arrangement.
 
-- `index.md`: biography/home page
-- `research.md`: research page
-- `links.md`: links page
-- `_config.yml`: site title and navigation
-- `assets/css/style.css`: visual theme
+## Publish
 
-## Design note
+Copy the contents into the root of `YOUR-USERNAME.github.io`, then enable GitHub Pages from the `main` branch and repository root.
 
-The theme uses UCSB's published digital navy, gold, gray, and text colors, with Nunito Sans as the web typeface. It does not include or reproduce the UCSB wordmark, seal, or other protected marks. It is a personal site and should not imply that it is an official UCSB website.
+## Brand treatment
+
+The theme uses UCSB navy, gold, and ocean blue as restrained accents. It does not include the university seal or wordmark and should not be presented as an official UCSB website.
