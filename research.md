@@ -27,4 +27,3 @@ I studied precipitation estimation using satellite observations, soil-moisture i
 - Scientific and climate machine learning
 - Statistical foundations of deep learning
 
-[Research proposal]({{ '/assets/pdfs/research-proposal.pdf' | relative_url }})
