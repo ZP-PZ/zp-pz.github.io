@@ -2,7 +2,7 @@
 layout: default
 title: About
 permalink: /
-profile_image: /assets/images/profile-placeholder.svg
+profile_image: /assets/images/profile-placeholder.gif
 profile_alt: Portrait of Peng Zhao
 ---
 
@@ -16,4 +16,5 @@ I am interested in multimodal learning, efficient transformers, and the statisti
 ## Contact
 
 Email: pz2110[at]nyu.edu
+
 [Curriculum vitae]({{ '/assets/pdfs/cv.pdf' | relative_url }})
