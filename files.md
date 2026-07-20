@@ -6,16 +6,11 @@ permalink: /files/
 
 # Files
 
-{% assign files = site.static_files | sort: "name" %}
+Documents stored in `assets/pdfs/`.
 
-<ul class="file-list">
+{% assign files = site.static_files | sort: "name" %}
 {% for file in files %}
-  {% if file.path contains '/assets/pdfs/' %}
-    <li>
-      <a href="{{ file.path | relative_url }}">
-        {{ file.name }}
-      </a>
-    </li>
-  {% endif %}
+{% if file.path contains "/assets/pdfs/" %}
+- [{{ file.name }}]({{ file.path | relative_url }})
+{% endif %}
 {% endfor %}
-</ul>
