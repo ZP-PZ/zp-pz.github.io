@@ -10,7 +10,7 @@ profile_alt: Portrait of Peng Zhao
 
 I am a master's student in Data Science at New York University. Previously, I studied Statistics and Data Science at the University of California, Santa Barbara.
 
-I am interested in multimodal learning, efficient transformers, and the statistical foundations of deep learning.
+I am interested in statistics and machine learning!
 
 
 ## Contact
